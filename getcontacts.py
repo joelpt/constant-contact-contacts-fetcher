@@ -43,7 +43,8 @@ def parse_contacts_page(content):
 def get_contacts(cc_api_key, cc_username, cc_password):
     contacts = []
 
-    h = httplib2.Http()
+    # we disable certificate validation to avoid SSL headaches on Windows
+    h = httplib2.Http(disable_ssl_certificate_validation=True)
     h.add_credentials(cc_api_key + '%' + cc_username, cc_password)
 
     baseurl = 'https://api.constantcontact.com'
