@@ -17,4 +17,4 @@ Usage:
 
     Options:
       -h, --help            show this help message and exit
-      -n, --noprogress      don't print progress messages to stdout
+      -n, --noprogress      don't print progress messages
