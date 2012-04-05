@@ -1,4 +1,4 @@
-This is a simple script to retrieve a list of all contacts from a Constant Contact account and output them in CSV format.
+This is a simple script to download a list of all contacts from a Constant Contact account and output them in CSV format.
 
 As of April 2012 this works even on expired Constant Contact accounts. You will need to [obtain a Constant Contact API key](http://community.constantcontact.com/t5/Documentation/API-Keys/ba-p/25015) which is obtainable even for expired accounts.
 
